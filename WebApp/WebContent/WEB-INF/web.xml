@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>UniversityManager</display-name>
+  <servlet>
+    <description></description>
+    <display-name>StudentController</display-name>
+    <servlet-name>StudentController</servlet-name>
+    <servlet-class>controller.StudentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentController</servlet-name>
+    <url-pattern>/StudentController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>StudentController.ChangePassword</display-name>
+    <servlet-name>StudentController.ChangePassword</servlet-name>
+    <servlet-class>controller.StudentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentController.ChangePassword</servlet-name>
+    <url-pattern>/StudentController/ChangePassword</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>StudentController.ChangeInfo</display-name>
+    <servlet-name>StudentController.ChangeInfo</servlet-name>
+    <servlet-class>controller.StudentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentController.ChangeInfo</servlet-name>
+    <url-pattern>/StudentController/ChangeInfo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>StudentController.ShowModule</display-name>
+    <servlet-name>StudentController.ShowModule</servlet-name>
+    <servlet-class>controller.StudentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentController.ShowModule</servlet-name>
+    <url-pattern>/StudentController/ShowModule</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>StudentController.HistoryModule</display-name>
+    <servlet-name>StudentController.HistoryModule</servlet-name>
+    <servlet-class>controller.StudentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentController.HistoryModule</servlet-name>
+    <url-pattern>/StudentController/HistoryModule</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>StudentController.ModuleRegister</display-name>
+    <servlet-name>StudentController.ModuleRegister</servlet-name>
+    <servlet-class>controller.StudentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentController.ModuleRegister</servlet-name>
+    <url-pattern>/StudentController/ModuleRegister</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginProcess</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
